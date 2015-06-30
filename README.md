@@ -12,7 +12,7 @@ Header Content (below linktree)<br>
 Footer Content (base of wrapper)<br><br>
 
 
-This addon aslo allows the Admin to add their own custom copyright right above the ElkArte Copyright.<br><br>
+This addon also allows the Admin to add their own custom copyright right above the ElkArte Copyright.<br><br>
 
 
 This work is licensed under an open source BSD-3 clause license.<br><br>
