@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.elkarte.net/site/package-info">
+<!--
+/**
+ * @package Global Header and Footer ElkArte
+ *
+ * @author BurkeKnight
+ * @copyright 2015 BurkeKnight Enterprises
+ * @license BSD 3-clause
+ * @version 1.0.0
+ *
+ * This version of SimplePortal ElkArte is based on SimplePortal core 2.4
+ */
+-->
+<package-info xmlns="http://www.elkarte.net/site/package-info" xmlns:elk="http://www.elkarte.net/">
+
+	<id>BurkeKnight:Global_Header_and_Footer</id>
+	<name>Global Header and Footer</name>
+	<version>1.0.0</version>
+	<type>modification</type>
+
+	<install for="1.0.2 - 1.0.99">
+		<readme parsebbc="true">readme.txt</readme>
+		<modification>modification.xml</modification>
+	</install>
+
+	<uninstall for="1.0.2 - 1.0.99">
+		<modification reverse="true">modification.xml</modification>
+	</uninstall>
+
+</package-info>
