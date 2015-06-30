@@ -9,8 +9,7 @@
  * @license BSD 3-clause
  * @version 1.0.0
  *
- * This version of SimplePortal ElkArte is based on SimplePortal core 2.4
- */
+  */
 -->
 <modification xmlns="http://www.elkarte.net/site/modification" xmlns:elk="http://www.elkarte.net/">
 
@@ -25,7 +24,7 @@
 			<add><![CDATA[
 			if(!empty($modSettings['global_head']))
 		echo '
-	<br /><div>', $modSettings['global_head'],'</div>
+	', $modSettings['global_head'],'
 
 </head>]]></add>
 		</operation>
