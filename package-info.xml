@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.elkarte.net/site/package-info">
+<!--
+/**
+ * @package Global Header and Footer ElkArte
+ *
+ * @author BurkeKnight
+ * @copyright 2015 BurkeKnight Enterprises
+ * @license BSD 3-clause
+ * @version 2.0.1
+ *
+ */
+-->
+<package-info xmlns="http://www.elkarte.net/site/package-info" xmlns:elk="http://www.elkarte.net/">
+
+	<id>BurkeKnight:Global_Header_and_Footer</id>
+	<name>Global Header and Footer</name>
+	<version>2.0.1</version>
+	<type>modification</type>
+
+	<install for="1.0 - 1.0.99">
+		<readme type="file" parsebbc="true">GHF.readme.txt</readme>
+		<require-file name="GHF.english.php" destination="LANGUAGEDIR/english" />
+		<require-file name="GHF.subs.php" destination="SOURCEDIR/addons" />
+		<code>GHF.hooks.php</code>
+		<redirect url="?action=admin;area=addonsettings" timeout="499">Redirecting to Addons Settings...</redirect>
+	</install>
+	<uninstall for="1.0 - 1.0.99">
+		<readme parsebbc="true">GHF.readme.txt</readme>
+		<remove-file name="LANGUAGEDIR/english/GHF.english.php" />
+		<remove-file name="SOURCEDIR/addons/GHF.subs.php" />
+		<code>GHF.hooks.php</code>
+		<redirect url="?action=admin;area=packages" timeout="499">Redirecting to Package Manager...</redirect>
+	</uninstall>
+
+</package-info>
