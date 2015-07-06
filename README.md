@@ -1,13 +1,20 @@
 Global Header and Footer   <br>
 
 Version: 1.0.0 Date: 6/28/15 <br>  
-Compatibility: 1.0.4   <br>
+Compatibility: 1.0.4   <br><br>
 
-Made by: BurkeKnight - BurkeKnight Enterprises<br><br>
+<p>Made by: <a href="http://www.elkarte.net/community/index.php?action=profile;u=130">BurkeKnight</a> - <a href="http://www.burkeknight.com/">BurkeKnight Enterprises</a></p>
+<br />
+
+[![Forks](https://img.shields.io/github/forks/BurkeKnight-Enterprises/BKE-Elk-Global_Header_and_Footer.svg)](https://github.com/BurkeKnight-Enterprises/BKE-Elk-Global_Header_and_Footer/network)
+[![Stars](https://img.shields.io/github/stars/BurkeKnight-Enterprises/BKE-Elk-Global_Header_and_Footer.svg)](hhttps://github.com/BurkeKnight-Enterprises/BKE-Elk-Global_Header_and_Footer/stargazers)
+[![Open Issues](https://img.shields.io/github/issues/BurkeKnight-Enterprises/BKE-Elk-Global_Header_and_Footer.svg)](https://github.com/BurkeKnight-Enterprises/BKE-Elk-Global_Header_and_Footer/issues)
+[![Current Release](https://img.shields.io/github/release/BurkeKnight-Enterprises/BKE-Elk-Global_Header_and_Footer.svg)](https://github.com/BurkeKnight-Enterprises/BKE-Elk-Global_Header_and_Footer/releases)
+[![License](https://img.shields.io/pypi/l/Django.svg)](http://opensource.org/licenses/BSD-3-Clause)<br /><br />
 
 This addon allows you to add HTML global content to three different parts of your forum.<br><br>
 
-Head <head></head> Content<br>
+Head Content between the Head tags<br>
 Header Content (below linktree)<br>
 Footer Content (base of wrapper)<br><br>
 
