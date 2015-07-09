@@ -37,20 +37,24 @@ function GHF_Mid(&$buffer)
  $ghf = array();
 
  // Description
- if(!empty($modSettings['global_mid'])) {
  // Insert the global_mid
+ if(!empty($modSettings['global_mid'])) {
  $ghf_old1 = '<div id="main_content_section"><a id="skipnav"></a>';
  $ghf_new1 = '<br /><div>' . $modSettings['global_mid'] . '</div>
  <div id="main_content_section"><a id="skipnav"></a>';
  $gfh[$ghf_old1] = $ghf_new1;
- 
+  }
+
  // Insert the global_foot
+ if(!empty($modSettings['global_foot'])) {
  $ghf_old2 = '<div id="footer_section"><a id="bot"></a>';
  $ghf_new2 = '<div id="footer_section"><a id="bot"></a>
  <div>' . $modSettings['global_foot'] . '</div>';
  $gfh[$ghf_old2] = $ghf_new2;
- 
+  }
+
  // Insert the global_copy
+ if(!empty($modSettings['global_copy'])) {
  $ghf_old3 = '<li class="copyright">';
  $ghf_new3 = '<li class="copyright">' . $modSettings['global_copy'] . '<br />';
  $gfh[$ghf_old3] = $ghf_new3;
